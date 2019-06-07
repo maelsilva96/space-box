@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav.nav-top {
+  background: #4dd2d2;
+  background: linear-gradient(90deg, #4dd2d2 0%, #092331 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1,endColorstr=$color2,GradientType=1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.nav.nav-top .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav.nav-top .nav-top__container-logo {
+  width: 100%;
+}
+
+.nav.nav-top .nav-top__container-logo img {
+  width: 100%;
+  max-width: 150px;
+  min-width: 100px;
+  margin-top: 5px;
+}
+
+.nav .navbar {
+  font-size: 14pt;
+  color: #ffffff;
+  width: 100%;
+  text-align: right;
+}
+
+.nav .navbar .btn.btn-menu {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.nav .navbar ul {
+  display: none;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  background: #4dd2d2;
+  background: linear-gradient(90deg, #4dd2d2 0%, #092331 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1,endColorstr=$color2,GradientType=1);
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.nav .navbar ul li {
+  margin: 10px;
+}
+
+.nav .navbar ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav .nav-top__position-left {
+  width: 33.3333333333%;
+  order: 1;
+}
+
+.nav .nav-top__position-right {
+  width: 33.3333333333%;
+  order: 3;
+}
+
+@media screen and (min-width: 768px) {
+  .nav.nav-top {
+    height: 150px;
+  }
+
+  .nav.nav-top .container {
+    width: 80%;
+  }
+
+  .nav.nav-top .nav-top__container-logo img {
+    margin-top: 10px;
+  }
+
+  .nav .navbar .btn.btn-menu {
+    display: none;
+  }
+
+  .nav .navbar ul {
+    display: block;
+    position: unset;
+    background: rgba(0, 0, 0, 0);
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav.nav-top {
+    height: 80px;
+  }
+
+  .nav .navbar.nav-horizontal ul li {
+    margin: 0 10px;
+    float: left;
+  }
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+.btn {
+  padding: 10px;
+  font-size: 22pt;
+}
+
+body {
+  background-color: #d9d9d9;
+}
+

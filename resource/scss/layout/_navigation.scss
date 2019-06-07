@@ -1,0 +1,117 @@
+.nav {
+  &.nav-top {
+    @include backgroundDegradeLinearTwoColors($color-blue-ligth, $color-blue-dark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .nav-top__container-logo {
+      width: 100%;
+      img {
+        width: 100%;
+        max-width: 150px;
+        min-width: 100px;
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .navbar {
+    font-size: 14pt;
+    color: $color-white;
+    width: 100%;
+    text-align: right;
+    .btn.btn-menu {
+      background-color: $color-transparent;
+      border: none;
+      color: $color-white;
+      margin-right: 10px;
+    }
+    ul {
+      display: none;
+      position: fixed;
+      top: 70px;
+      left: 0;
+      right: 0;
+      @include backgroundDegradeLinearTwoColors($color-blue-ligth, $color-blue-dark);
+      @include resetMargins();
+      @include resetPaddings();
+      list-style: none;
+      text-align: center;
+      text-transform: uppercase;
+      padding: 10px 0;
+      li {
+        margin: 10px;
+        a {
+          text-decoration: none;
+          color: $color-white;
+        }
+      }
+    }
+  }
+
+  .nav-top {
+    &__position-left {
+      width: (100 / 3) + 0%;
+      order: 1;
+    }
+
+    &__position-right {
+      width: (100 / 3) + 0%;
+      order: 3;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    &.nav-top {
+      height: 150px;
+      .container {
+        width: 80%;
+      }
+      .nav-top__container-logo {
+        img {
+          margin-top: 10px;
+        }
+      }
+    }
+    .navbar {
+      .btn.btn-menu {
+        display: none;
+      }
+      ul {
+        display: block;
+        position: unset;
+        background: $color-transparent;
+        margin: auto;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    &.nav-top {
+      height: 80px;
+    }
+    .navbar {
+      &.nav-horizontal {
+        ul {
+          li {
+            margin: 0 10px;
+            float: left;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,15 @@
-@import "animations";
-
+@import "../utilities/fonts";
 @import "../utilities/variables";
 @import "../utilities/mixins";
+
+@import "animations";
 
 @import "../layout/header";
 @import "../layout/footer";
 @import "../layout/navigation";
 @import "../layout/sidebar";
+
+@import "../components/container";
+@import "../components/button";
+
+@import "../themes/initial";
