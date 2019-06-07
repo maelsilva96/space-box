@@ -1,5 +1,5 @@
 .nav {
-  z-index: 2;
+  z-index: 3;
   &.nav-top {
     @include backgroundDegradeLinearTwoColors($color-blue-ligth, $color-blue-dark);
     position: fixed;
@@ -45,7 +45,7 @@
     ul {
       display: none;
       position: fixed;
-      top: 70px;
+      top: 65px;
       left: 0;
       right: 0;
       @include backgroundDegradeLinearTwoColors($color-blue-ligth, $color-blue-dark);

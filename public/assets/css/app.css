@@ -3,7 +3,7 @@
 }
 
 .nav {
-  z-index: 2;
+  z-index: 3;
 }
 
 .nav.nav-top {
@@ -53,7 +53,7 @@
 .nav .navbar ul {
   display: none;
   position: fixed;
-  top: 70px;
+  top: 65px;
   left: 0;
   right: 0;
   background: #4dd2d2;
@@ -242,6 +242,16 @@
   color: #ffffff !important;
 }
 
+@media screen and (max-width: 768px) {
+  .container-person.fixed-on-cellphone {
+    position: fixed !important;
+    top: 48px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .container-person__container_id {
     left: 130px;
@@ -272,6 +282,12 @@
 
 .container-people .container-person {
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container-people {
+    margin-top: 150px;
+  }
 }
 
 .col-12-12 {
