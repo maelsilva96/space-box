@@ -3,12 +3,12 @@ var data_person = {
     urlImages: "/public/assets/images/",
     dataPeople: [],
     containerModel: null,
+    containerLoad: null,
     containerPeople: document.getElementById("data-people"),
-    initLoad: function () {
-
-    },
     closeLoad: function () {
-
+        var container = document.getElementById("container-load");
+        data_person.containerLoad = container.innerHTML;
+        container.parentNode.removeChild(container);
     },
     isHidden: function (el) {
         var style = window.getComputedStyle(el);
@@ -70,12 +70,14 @@ var data_person = {
                 data_person.insertDataPage(i);
             }
             data_person.selectFirstItem();
+            data_person.closeLoad();
         }).catch(function (code) {
             if (code > 400 && code < 406) {
                 alert("Arquivo de dados não encontrado!");
             } else {
                 alert("Erro interno!");
             }
+            data_person.closeLoad();
         });
     },
     getData: function () {

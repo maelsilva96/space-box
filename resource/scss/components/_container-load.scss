@@ -1,0 +1,21 @@
+#container-load {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-black-transparent;
+  z-index: 4;
+  overflow: auto;
+
+  h4 {
+    color: $color-white;
+    -webkit-animation: show 1s linear 0s infinite;
+    -moz-animation: show 1s linear 0s infinite;
+    -o-animation: show 1s linear 0s infinite;
+    animation: show 1s linear 0s infinite;
+  }
+}

@@ -310,6 +310,26 @@
   }
 }
 
+#container-load {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.51);
+  z-index: 4;
+  overflow: auto;
+}
+
+#container-load h4 {
+  color: #ffffff;
+  -webkit-animation: show 1s linear 0s infinite;
+  animation: show 1s linear 0s infinite;
+}
+
 .col-12-12 {
   width: 100%;
   margin: auto;
