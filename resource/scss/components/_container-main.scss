@@ -1,0 +1,11 @@
+.container-main {
+  margin-top: 70px;
+
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    margin-top: 150px;
+  }
+
+  @media screen and (min-width: 1024px) {
+    margin-top: 80px;
+  }
+}

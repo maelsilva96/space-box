@@ -4,7 +4,7 @@
 
 .nav.nav-top {
   background: #4dd2d2;
-  background: linear-gradient(90deg, #4dd2d2 0%, #092331 100%);
+  background: linear-gradient(90deg, #4dd2d2 0%, #092332 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1,endColorstr=$color2,GradientType=1);
   position: fixed;
   top: 0;
@@ -29,7 +29,7 @@
   width: 100%;
   max-width: 150px;
   min-width: 100px;
-  margin-top: 5px;
+  margin: 5px auto auto 5px;
 }
 
 .nav .navbar {
@@ -53,7 +53,7 @@
   left: 0;
   right: 0;
   background: #4dd2d2;
-  background: linear-gradient(90deg, #4dd2d2 0%, #092331 100%);
+  background: linear-gradient(90deg, #4dd2d2 0%, #092332 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1,endColorstr=$color2,GradientType=1);
   margin: auto;
   padding: 0;
@@ -100,14 +100,16 @@
   }
 
   .nav .navbar ul {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     position: unset;
     background: rgba(0, 0, 0, 0);
     margin: auto;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .nav.nav-top {
     height: 80px;
   }
@@ -127,12 +129,83 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 80%;
+    max-width: 1200px;
   }
 }
 
 .btn {
   padding: 10px;
   font-size: 22pt;
+}
+
+.container-main {
+  margin-top: 70px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .container-main {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-main {
+    margin-top: 80px;
+  }
+}
+
+.container-person {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
+}
+
+.container-person__photo {
+  width: 140px;
+  height: 140px;
+  min-width: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.container-person__data {
+  font-size: 10pt;
+  display: flex;
+  flex-direction: row;
+}
+
+.container-person__data ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+
+.container-person__data ul li {
+  margin: 10px auto;
+}
+
+.container-person__data__title {
+  text-transform: uppercase;
+  min-width: 60px;
+  color: #707070;
+  text-align: right;
+  padding-right: 5px !important;
+}
+
+.container-person__data__legends {
+  font-weight: bold;
+  color: #092332;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .container-person__data {
+    font-size: 12pt;
+  }
 }
 
 body {

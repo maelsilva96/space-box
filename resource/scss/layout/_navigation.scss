@@ -6,9 +6,9 @@
     left: 0;
     right: 0;
     height: 70px;
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
-    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
 
     .container {
       display: flex;
@@ -19,11 +19,12 @@
 
     .nav-top__container-logo {
       width: 100%;
+
       img {
         width: 100%;
         max-width: 150px;
         min-width: 100px;
-        margin-top: 5px;
+        margin: 5px auto auto 5px;
       }
     }
   }
@@ -33,12 +34,14 @@
     color: $color-white;
     width: 100%;
     text-align: right;
+
     .btn.btn-menu {
       background-color: $color-transparent;
       border: none;
       color: $color-white;
       margin-right: 10px;
     }
+
     ul {
       display: none;
       position: fixed;
@@ -52,8 +55,10 @@
       text-align: center;
       text-transform: uppercase;
       padding: 10px 0;
+
       li {
         margin: 10px;
+
         a {
           text-decoration: none;
           color: $color-white;
@@ -77,9 +82,11 @@
   @media screen and (min-width: 768px) {
     &.nav-top {
       height: 150px;
+
       .container {
         width: 80%;
       }
+
       .nav-top__container-logo {
         img {
           margin-top: 10px;
@@ -90,8 +97,11 @@
       .btn.btn-menu {
         display: none;
       }
+
       ul {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         position: unset;
         background: $color-transparent;
         margin: auto;
@@ -99,7 +109,7 @@
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1024px) {
     &.nav-top {
       height: 80px;
     }

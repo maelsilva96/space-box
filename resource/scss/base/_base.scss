@@ -1,15 +1,13 @@
 @import "../utilities/fonts";
 @import "../utilities/variables";
 @import "../utilities/mixins";
-
 @import "animations";
-
 @import "../layout/header";
 @import "../layout/footer";
 @import "../layout/navigation";
 @import "../layout/sidebar";
-
 @import "../components/container";
 @import "../components/button";
-
+@import "../components/container-main";
+@import "../components/container-person";
 @import "../themes/initial";
