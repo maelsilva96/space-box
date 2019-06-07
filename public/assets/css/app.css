@@ -2,9 +2,13 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.nav {
+  z-index: 2;
+}
+
 .nav.nav-top {
   background: #4dd2d2;
-  background: linear-gradient(90deg, #4dd2d2 0%, #092332 100%);
+  background: linear-gradient(90deg, #4dd2d2 0%, #002b50 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1,endColorstr=$color2,GradientType=1);
   position: fixed;
   top: 0;
@@ -53,7 +57,7 @@
   left: 0;
   right: 0;
   background: #4dd2d2;
-  background: linear-gradient(90deg, #4dd2d2 0%, #092332 100%);
+  background: linear-gradient(90deg, #4dd2d2 0%, #002b50 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color1,endColorstr=$color2,GradientType=1);
   margin: auto;
   padding: 0;
@@ -84,7 +88,7 @@
 
 @media screen and (min-width: 768px) {
   .nav.nav-top {
-    height: 150px;
+    height: 80px;
   }
 
   .nav.nav-top .container {
@@ -110,10 +114,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .nav.nav-top {
-    height: 80px;
-  }
-
   .nav .navbar.nav-horizontal ul li {
     margin: 0 10px;
     float: left;
@@ -140,12 +140,7 @@
 
 .container-main {
   margin-top: 70px;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-  .container-main {
-    margin-top: 150px;
-  }
+  z-index: 1;
 }
 
 @media screen and (min-width: 1024px) {
@@ -160,20 +155,37 @@
   margin: 20px 0;
   padding: 10px;
   background-color: #ffffff;
+  position: relative;
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
 }
 
+.container-person__container_id {
+  position: absolute;
+  background-color: #4dd2d2;
+  padding: 5px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: normal;
+  left: 115px;
+  top: 10px;
+}
+
 .container-person__photo {
-  width: 140px;
-  height: 140px;
-  min-width: 140px;
+  width: 135px;
+  height: 135px;
+  min-width: 135px;
   overflow: hidden;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-person__data {
-  font-size: 10pt;
   display: flex;
   flex-direction: row;
 }
@@ -198,13 +210,73 @@
 
 .container-person__data__legends {
   font-weight: bold;
-  color: #092332;
+  color: #002b50;
   text-align: left;
 }
 
+.container-person__data__form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-person__data__form h4 {
+  font-size: 14pt;
+  margin: 0;
+}
+
+.container-person__data__form span {
+  color: #707070;
+}
+
+.container-person.is-active {
+  background-color: #002b50;
+  color: #ffffff;
+}
+
+.container-person.is-active .container-person__data__form span {
+  color: #ffffff !important;
+}
+
 @media screen and (min-width: 768px) {
+  .container-person__photo {
+    margin-right: 20px;
+  }
+
   .container-person__data {
-    font-size: 12pt;
+    font-size: 14pt;
+  }
+}
+
+.container-peoples {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-peoples .container-person {
+  cursor: pointer;
+}
+
+.col-12-12 {
+  width: 100%;
+  margin: auto;
+}
+
+.col-3-6-12 {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .col-3-6-12 {
+    width: 28.3333333333%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .col-3-6-12 {
+    width: 45%;
   }
 }
 

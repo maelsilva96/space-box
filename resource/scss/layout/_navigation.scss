@@ -1,4 +1,5 @@
 .nav {
+  z-index: 2;
   &.nav-top {
     @include backgroundDegradeLinearTwoColors($color-blue-ligth, $color-blue-dark);
     position: fixed;
@@ -81,7 +82,7 @@
 
   @media screen and (min-width: 768px) {
     &.nav-top {
-      height: 150px;
+      height: 80px;
 
       .container {
         width: 80%;
@@ -110,9 +111,6 @@
   }
 
   @media screen and (min-width: 1024px) {
-    &.nav-top {
-      height: 80px;
-    }
     .navbar {
       &.nav-horizontal {
         ul {

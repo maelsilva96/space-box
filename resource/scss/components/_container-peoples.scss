@@ -1,0 +1,10 @@
+.container-peoples {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .container-person {
+    cursor: pointer;
+  }
+}
