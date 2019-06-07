@@ -111,9 +111,7 @@ var data_person = {
     if (data_person.isHidden(menu)) {
       menu.classList.add("show");
     } else {
-      console.log(menu);
       menu.className = menu.className.replace("show", "");
-      console.log(menu);
     }
   },
   selectFirstItem: function selectFirstItem() {
@@ -168,7 +166,6 @@ var data_person = {
     element.innerHTML = element.innerHTML.replace("[office]", person.cargo);
     element.onclick = data_person.selectItem;
     data_person.containerPeople.appendChild(element);
-    data_person.selectFirstItem();
   },
   loadContainerModel: function loadContainerModel() {
     var container = document.getElementById("model-person");
@@ -183,6 +180,8 @@ var data_person = {
       for (var i in data) {
         data_person.insertDataPage(i);
       }
+
+      data_person.selectFirstItem();
     })["catch"](function (code) {
       if (code > 400 && code < 406) {
         alert("Arquivo de dados não encontrado!");
