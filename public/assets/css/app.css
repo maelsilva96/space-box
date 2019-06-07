@@ -2,6 +2,26 @@
   font-family: "Open Sans", sans-serif;
 }
 
+@-webkit-keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .nav {
   z-index: 3;
 }
@@ -53,7 +73,7 @@
 .nav .navbar ul {
   display: none;
   position: fixed;
-  top: 65px;
+  top: 68px;
   left: 0;
   right: 0;
   background: #4dd2d2;
@@ -316,8 +336,8 @@
 }
 
 .show {
-  -webkit-animation: show 1s linear 0s;
-  animation: show 1s linear 0s;
+  -webkit-animation: show 0.5s linear 0s;
+  animation: show 0.5s linear 0s;
   display: block !important;
 }
 
