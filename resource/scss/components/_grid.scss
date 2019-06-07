@@ -7,10 +7,10 @@
   width: 100%;
 
   @media screen and (min-width: 1024px) {
-    width: (100 / 3 - 5) + 0%;
+    width: (100 / 3 - 2) + 0%;
   }
 
   @media screen and (min-width: 768px) and (max-width: 1024px){
-    width: (50 - 5) +  0%;
+    width: (50 - 2) +  0%;
   }
 }

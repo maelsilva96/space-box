@@ -162,6 +162,7 @@
 .container-person__container_id {
   position: absolute;
   background-color: #4dd2d2;
+  color: #002b50;
   padding: 5px;
   border-radius: 50%;
   width: 20px;
@@ -169,8 +170,8 @@
   text-align: center;
   font-weight: bold;
   line-height: normal;
-  left: 85px;
-  top: 10px;
+  left: 105px;
+  top: 25px;
 }
 
 .container-person__photo {
@@ -180,6 +181,7 @@
   overflow: hidden;
   border-radius: 50%;
   margin-right: 5px;
+  margin-left: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,7 +225,7 @@
 }
 
 .container-person__data__form h4 {
-  font-size: 14pt;
+  font-size: 12pt;
   margin: 0;
 }
 
@@ -242,7 +244,7 @@
 
 @media screen and (min-width: 1024px) {
   .container-person__container_id {
-    left: 115px;
+    left: 130px;
   }
 
   .container-person__photo {
@@ -253,7 +255,7 @@
   }
 
   .container-person__data {
-    font-size: 14pt;
+    font-size: 12pt;
   }
 
   .container-person__data__form {
@@ -283,13 +285,13 @@
 
 @media screen and (min-width: 1024px) {
   .col-3-6-12 {
-    width: 28.3333333333%;
+    width: 31.3333333333%;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .col-3-6-12 {
-    width: 45%;
+    width: 48%;
   }
 }
 
