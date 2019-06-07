@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+
+.show {
+  -webkit-animation: show 1s linear 0s;
+  -moz-animation: show 1s linear 0s;
+  -o-animation: show 1s linear 0s;
+  animation: show 1s linear 0s;
+
+  display: block !important;
+}

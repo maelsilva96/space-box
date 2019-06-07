@@ -12,9 +12,8 @@
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.35);
 
     .container {
-      display: flex;
+      @include displayFlexRow();
       justify-content: space-between;
-      flex-direction: row;
       align-items: center;
     }
 
@@ -100,8 +99,7 @@
       }
 
       ul {
-        display: flex;
-        flex-direction: row;
+        @include displayFlexRow();
         justify-content: space-around;
         position: unset;
         background: $color-transparent;

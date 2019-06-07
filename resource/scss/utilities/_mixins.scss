@@ -12,6 +12,11 @@
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 }
 
+@mixin displayFlexRow () {
+  display: flex;
+  flex-direction: row;
+}
+
 @mixin resetMargins () {
   margin: auto;
 }

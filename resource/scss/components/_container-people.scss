@@ -1,6 +1,5 @@
-.container-peoples {
-  display: flex;
-  flex-direction: row;
+.container-people {
+  @include displayFlexRow();
   justify-content: space-between;
   flex-wrap: wrap;
 

@@ -22,7 +22,7 @@
                     <button class="btn btn-menu">
                         <i class="fas fa-bars"></i>
                     </button>
-                    <ul>
+                    <ul id="menu">
                         <li>
                             <a href="#">Empresa</a>
                         </li>
@@ -40,9 +40,9 @@
     <section class="container-main">
         <div class="container">
             <div class="col-12-12">
-                <section class="container-person">
+                <section class="container-person fixed-on-cellphone">
                     <div class="container-person__photo">
-                        <img src="public/assets/images/foto-alberto.jpg" alt="Pessoa" />
+                        <img id="photo" src="public/assets/images/foto-alberto.jpg" alt="Pessoa"/>
                     </div>
                     <div class="container-person__data">
                         <ul class="container-person__data__title">
@@ -51,67 +51,24 @@
                             <li>Idade:</li>
                         </ul>
                         <ul class="container-person__data__legends">
-                            <li>Alberto</li>
-                            <li>Diretor</li>
-                            <li>45</li>
+                            <li id="name">Alberto</li>
+                            <li id="office">Diretor</li>
+                            <li id="yearsAge">45</li>
                         </ul>
                     </div>
                 </section>
             </div>
-
-            <section class="container-peoples">
-                <div class="col-3-6-12">
-                    <div class="container-person is-active">
-                        <div class="container-person__container_id">1</div>
-                        <div class="container-person__photo">
-                            <img src="public/assets/images/foto-alberto.jpg" alt="Pessoa" />
-                        </div>
-                        <div class="container-person__data">
-                            <div class="container-person__data__form">
-                                <h4>Alberto</h4>
-                                <span>Diretor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3-6-12">
+            <section class="container-people" id="data-people">
+                <div class="hidden" id="model-person">
                     <div class="container-person">
-                        <div class="container-person__container_id">1</div>
+                        <div class="container-person__container_id">[id]</div>
                         <div class="container-person__photo">
-                            <img src="public/assets/images/foto-alberto.jpg" alt="Pessoa" />
+                            <img data-src="[photo]" alt="Pessoa"/>
                         </div>
                         <div class="container-person__data">
                             <div class="container-person__data__form">
-                                <h4>Alberto</h4>
-                                <span>Diretor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3-6-12">
-                    <div class="container-person">
-                        <div class="container-person__container_id">1</div>
-                        <div class="container-person__photo">
-                            <img src="public/assets/images/foto-alberto.jpg" alt="Pessoa" />
-                        </div>
-                        <div class="container-person__data">
-                            <div class="container-person__data__form">
-                                <h4>Alberto</h4>
-                                <span>Diretor</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3-6-12">
-                    <div class="container-person">
-                        <div class="container-person__container_id">1</div>
-                        <div class="container-person__photo">
-                            <img src="public/assets/images/foto-alberto.jpg" alt="Pessoa" />
-                        </div>
-                        <div class="container-person__data">
-                            <div class="container-person__data__form">
-                                <h4>Alberto</h4>
-                                <span>Diretor</span>
+                                <h4>[name]</h4>
+                                <span>[office]</span>
                             </div>
                         </div>
                     </div>
