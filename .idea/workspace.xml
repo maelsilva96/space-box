@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47b61962-2970-4f2a-b54f-bf7da95d802c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/assets/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/scss/components/_container-people.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resource/scss/components/_container-people.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resource/scss/components/_container-person.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resource/scss/components/_container-person.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,26 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resource/scss/components/_container-people.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/scss/components/_container-person.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="95" column="40" lean-forward="true" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,6 +32,7 @@
       <find>§160</find>
       <find>containerPeople</find>
       <find>name</find>
+      <find>php5_module</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,14 +65,15 @@
         <option value="$PROJECT_DIR$/resource/scss/utilities/_variables.scss" />
         <option value="$PROJECT_DIR$/resource/scss/base/_base.scss" />
         <option value="$PROJECT_DIR$/resource/js/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resource/scss/components/_container-load.scss" />
         <option value="$PROJECT_DIR$/resource/scss/components/_container-person.scss" />
         <option value="$PROJECT_DIR$/resource/scss/components/_container-people.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/t.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -101,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,67 +90,10 @@
               <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
               <item name="space-box" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="space-box" type="b2602c69:ProjectViewProjectNode" />
-              <item name="space-box" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.watch">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/space-box/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -250,15 +175,15 @@
       <updated>1559860040678</updated>
       <workItem from="1559860041969" duration="1373000" />
       <workItem from="1559861694958" duration="223000" />
+      <workItem from="1560701745075" duration="536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27978000" />
+    <option name="totallyTimeSpent" value="29312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -274,6 +199,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -311,9 +237,7 @@
     <entry file="file://$USER_HOME$/Downloads/fontawesome-free-5.9.0-web/css/all.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/images/foto-alberto.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/images/foto-alberto.png" />
     <entry file="file://$PROJECT_DIR$/public/assets/images/foto-alberto.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -422,20 +346,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/scss/base/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -468,6 +378,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/httpd.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4419">
+          <caret line="62" column="41" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
